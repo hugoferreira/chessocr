@@ -31,9 +31,9 @@ object NeuralNetwork {
 
     var epoch = 0
     while (!stop.shouldStop()) {
-      trainMain.iteration()
-      if (epoch % 100 == 0) println("Training Epoch #" + epoch + " Error:" + trainMain.getError)
-      epoch += 1
+      println("Training Epoch #" + epoch + " Error:" + trainMain.getError)
+      trainMain.iteration(100)
+      epoch += 100
     }
 
     trainMain.getError

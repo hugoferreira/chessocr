@@ -150,6 +150,19 @@ object TrainData {
     (processImage("1361116557698_60.jpg"), whiteKing),
     (processImage("1361116557698_61.jpg"), whiteBishop),
     (processImage("1361116557698_62.jpg"), whiteKnight),
-    (processImage("1361116557698_63.jpg"), whiteTower)
+    (processImage("1361116557698_63.jpg"), whiteTower),
+
+    (processImage("blacktower.png"), blackTower),
+    (processImage("blackknight.png"), blackKnight),
+    (processImage("blackbishop.png"), blackBishop),
+    (processImage("blackqueen.png"), blackQueen),
+    (processImage("blackking.png"), blackKing),
+    (processImage("blackpawn.png"), blackKing),
+    (processImage("whitepawn.png"), blackKing),
+    (processImage("whitequeen.png"), whiteQueen),
+    (processImage("whiteking.png"), whiteKing),
+    (processImage("whitebishop.png"), whiteBishop),
+    (processImage("whiteknight.png"), whiteKnight),
+    (processImage("whitetower.png"), whiteTower)
     )
 }
